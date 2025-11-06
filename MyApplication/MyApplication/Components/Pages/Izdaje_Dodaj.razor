@@ -1,0 +1,60 @@
+﻿@page "/Izdaje-Dodaj"
+
+@using BusinessLayer.Services.StateServices
+
+@inject UserState _userState
+@inject NavigationManager NavigationManager
+<pre>
+View “IzdajeAdd” (form/page)
+To add new record into Izdaje. Could be reused “IzdajeEdit” with some values(use from last izdaje)
+Main function:
+-	Based on ThisIzdajeSelectionID show values(can be modified) from row of table “izdaje”
+-	Using component MudBlazer text box, numeric field
+-	Some checking of entered value in fields:
+o	Text field – simple value validation
+o	Numeric field – simple value validation
+o	Select field (Combobox) – filling from other table-šifrant( for example Izdaje.Vozilo you fill data from table Vozilo.Opis). Take care to write in izdaje valid number from Vozila.id
+If value does not exist then should be button to add value in šifrant(open new form, select existing or add new item, return to form, refresh combobox) 
+
+-	Button “Potrdi” to do:
+o	C# Verification of entered fields
+o	If verification ok:
+	Write values in SQL Izdaje
+	write one SQL statement
+	return to view “Trenutni”
+o	If verification fail:
+	show message with what is wrong
+-	Button “Cancel” to do:
+o	return to view “Trenutni”
+
+
+Startup:
+-	On startup/opening do checking 
+
+If result:
+o	Ok
+Fill components (text box, numeric field) on form based on value of result SQL
+o	Not ok
+Empty components
+
+
+</pre>
+
+
+@if (_userState.CurrentUserId > 0)
+{
+    <MudButton Color="Color.Secondary" OnClick="NavigateToPage">
+        Go to Other Page
+    </MudButton>
+}
+else
+{
+    <MudText>Access denied</MudText>
+}
+
+@code {
+    private void NavigateToPage()
+    {
+        NavigationManager.NavigateTo("/sifranti/Vozila-Seznam");
+    }
+}

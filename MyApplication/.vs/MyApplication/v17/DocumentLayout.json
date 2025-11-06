@@ -1,0 +1,621 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6027DAC8-0B5B-4784-B645-28A5953A488C}|MyApplication\\MyApplication.csproj|d:\\freelancer dokumentacija\\myapplication_20250929\\myapplication\\myapplication\\myapplication\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6027DAC8-0B5B-4784-B645-28A5953A488C}|MyApplication\\MyApplication.csproj|solutionrelative:myapplication\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6027DAC8-0B5B-4784-B645-28A5953A488C}|MyApplication\\MyApplication.csproj|d:\\freelancer dokumentacija\\myapplication_20250929\\myapplication\\myapplication\\myapplication\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6027DAC8-0B5B-4784-B645-28A5953A488C}|MyApplication\\MyApplication.csproj|solutionrelative:myapplication\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6027DAC8-0B5B-4784-B645-28A5953A488C}|MyApplication\\MyApplication.csproj|d:\\freelancer dokumentacija\\myapplication_20250929\\myapplication\\myapplication\\myapplication\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6027DAC8-0B5B-4784-B645-28A5953A488C}|MyApplication\\MyApplication.csproj|solutionrelative:myapplication\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6027DAC8-0B5B-4784-B645-28A5953A488C}|MyApplication\\MyApplication.csproj|d:\\freelancer dokumentacija\\myapplication_20250929\\myapplication\\myapplication\\myapplication\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6027DAC8-0B5B-4784-B645-28A5953A488C}|MyApplication\\MyApplication.csproj|solutionrelative:myapplication\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6027DAC8-0B5B-4784-B645-28A5953A488C}|MyApplication\\MyApplication.csproj|d:\\freelancer dokumentacija\\myapplication_20250929\\myapplication\\myapplication\\myapplication\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6027DAC8-0B5B-4784-B645-28A5953A488C}|MyApplication\\MyApplication.csproj|solutionrelative:myapplication\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C8E2CA-630D-4E9C-87B4-1138124FF80A}|BusinessLayer\\BusinessLayer.csproj|d:\\freelancer dokumentacija\\myapplication_20250929\\myapplication\\myapplication\\businesslayer\\services\\stateservices\\userstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C8E2CA-630D-4E9C-87B4-1138124FF80A}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\services\\stateservices\\userstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C8E2CA-630D-4E9C-87B4-1138124FF80A}|BusinessLayer\\BusinessLayer.csproj|d:\\freelancer dokumentacija\\myapplication_20250929\\myapplication\\myapplication\\businesslayer\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C8E2CA-630D-4E9C-87B4-1138124FF80A}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C8E2CA-630D-4E9C-87B4-1138124FF80A}|BusinessLayer\\BusinessLayer.csproj|d:\\freelancer dokumentacija\\myapplication_20250929\\myapplication\\myapplication\\businesslayer\\interfaces\\iclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C8E2CA-630D-4E9C-87B4-1138124FF80A}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\interfaces\\iclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6027DAC8-0B5B-4784-B645-28A5953A488C}|MyApplication\\MyApplication.csproj|d:\\freelancer dokumentacija\\myapplication_20250929\\myapplication\\myapplication\\myapplication\\components\\pages\\sifranti\\vozniki_edit_add_form.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6027DAC8-0B5B-4784-B645-28A5953A488C}|MyApplication\\MyApplication.csproj|solutionrelative:myapplication\\components\\pages\\sifranti\\vozniki_edit_add_form.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6027DAC8-0B5B-4784-B645-28A5953A488C}|MyApplication\\MyApplication.csproj|d:\\freelancer dokumentacija\\myapplication_20250929\\myapplication\\myapplication\\myapplication\\components\\pages\\sifranti\\vozila_edit_add_form.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6027DAC8-0B5B-4784-B645-28A5953A488C}|MyApplication\\MyApplication.csproj|solutionrelative:myapplication\\components\\pages\\sifranti\\vozila_edit_add_form.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6027DAC8-0B5B-4784-B645-28A5953A488C}|MyApplication\\MyApplication.csproj|d:\\freelancer dokumentacija\\myapplication_20250929\\myapplication\\myapplication\\myapplication\\components\\pages\\notauthorized.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6027DAC8-0B5B-4784-B645-28A5953A488C}|MyApplication\\MyApplication.csproj|solutionrelative:myapplication\\components\\pages\\notauthorized.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6027DAC8-0B5B-4784-B645-28A5953A488C}|MyApplication\\MyApplication.csproj|d:\\freelancer dokumentacija\\myapplication_20250929\\myapplication\\myapplication\\myapplication\\components\\pages\\izdaje_dodaj.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6027DAC8-0B5B-4784-B645-28A5953A488C}|MyApplication\\MyApplication.csproj|solutionrelative:myapplication\\components\\pages\\izdaje_dodaj.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6027DAC8-0B5B-4784-B645-28A5953A488C}|MyApplication\\MyApplication.csproj|d:\\freelancer dokumentacija\\myapplication_20250929\\myapplication\\myapplication\\myapplication\\components\\pages\\izdaje_edit_add_form.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6027DAC8-0B5B-4784-B645-28A5953A488C}|MyApplication\\MyApplication.csproj|solutionrelative:myapplication\\components\\pages\\izdaje_edit_add_form.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6027DAC8-0B5B-4784-B645-28A5953A488C}|MyApplication\\MyApplication.csproj|d:\\freelancer dokumentacija\\myapplication_20250929\\myapplication\\myapplication\\myapplication\\components\\pages\\izdaje_seznam.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6027DAC8-0B5B-4784-B645-28A5953A488C}|MyApplication\\MyApplication.csproj|solutionrelative:myapplication\\components\\pages\\izdaje_seznam.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6027DAC8-0B5B-4784-B645-28A5953A488C}|MyApplication\\MyApplication.csproj|d:\\freelancer dokumentacija\\myapplication_20250929\\myapplication\\myapplication\\myapplication\\components\\pages\\izdaje_trenutni.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6027DAC8-0B5B-4784-B645-28A5953A488C}|MyApplication\\MyApplication.csproj|solutionrelative:myapplication\\components\\pages\\izdaje_trenutni.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6027DAC8-0B5B-4784-B645-28A5953A488C}|MyApplication\\MyApplication.csproj|d:\\freelancer dokumentacija\\myapplication_20250929\\myapplication\\myapplication\\myapplication\\components\\pages\\nov.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6027DAC8-0B5B-4784-B645-28A5953A488C}|MyApplication\\MyApplication.csproj|solutionrelative:myapplication\\components\\pages\\nov.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6027DAC8-0B5B-4784-B645-28A5953A488C}|MyApplication\\MyApplication.csproj|d:\\freelancer dokumentacija\\myapplication_20250929\\myapplication\\myapplication\\myapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6027DAC8-0B5B-4784-B645-28A5953A488C}|MyApplication\\MyApplication.csproj|solutionrelative:myapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C8E2CA-630D-4E9C-87B4-1138124FF80A}|BusinessLayer\\BusinessLayer.csproj|d:\\freelancer dokumentacija\\myapplication_20250929\\myapplication\\myapplication\\businesslayer\\interfaces\\iuporabnikservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C8E2CA-630D-4E9C-87B4-1138124FF80A}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\interfaces\\iuporabnikservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C8E2CA-630D-4E9C-87B4-1138124FF80A}|BusinessLayer\\BusinessLayer.csproj|d:\\freelancer dokumentacija\\myapplication_20250929\\myapplication\\myapplication\\businesslayer\\interfaces\\iizdajeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C8E2CA-630D-4E9C-87B4-1138124FF80A}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\interfaces\\iizdajeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{945175F4-887D-4979-9E2C-10267471FA54}|DataAccessLayer\\DataAccessLayer.csproj|d:\\freelancer dokumentacija\\myapplication_20250929\\myapplication\\myapplication\\dataaccesslayer\\models\\uporabniki.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{945175F4-887D-4979-9E2C-10267471FA54}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\models\\uporabniki.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C8E2CA-630D-4E9C-87B4-1138124FF80A}|BusinessLayer\\BusinessLayer.csproj|d:\\freelancer dokumentacija\\myapplication_20250929\\myapplication\\myapplication\\businesslayer\\services\\uporabnikservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C8E2CA-630D-4E9C-87B4-1138124FF80A}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\services\\uporabnikservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6027DAC8-0B5B-4784-B645-28A5953A488C}|MyApplication\\MyApplication.csproj|d:\\freelancer dokumentacija\\myapplication_20250929\\myapplication\\myapplication\\myapplication\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6027DAC8-0B5B-4784-B645-28A5953A488C}|MyApplication\\MyApplication.csproj|solutionrelative:myapplication\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6027DAC8-0B5B-4784-B645-28A5953A488C}|MyApplication\\MyApplication.csproj|d:\\freelancer dokumentacija\\myapplication_20250929\\myapplication\\myapplication\\myapplication\\components\\pages\\sifranti\\vozila_seznam.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6027DAC8-0B5B-4784-B645-28A5953A488C}|MyApplication\\MyApplication.csproj|solutionrelative:myapplication\\components\\pages\\sifranti\\vozila_seznam.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6027DAC8-0B5B-4784-B645-28A5953A488C}|MyApplication\\MyApplication.csproj|d:\\freelancer dokumentacija\\myapplication_20250929\\myapplication\\myapplication\\myapplication\\components\\pages\\sifranti\\vozniki_seznam.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6027DAC8-0B5B-4784-B645-28A5953A488C}|MyApplication\\MyApplication.csproj|solutionrelative:myapplication\\components\\pages\\sifranti\\vozniki_seznam.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6027DAC8-0B5B-4784-B645-28A5953A488C}|MyApplication\\MyApplication.csproj|d:\\freelancer dokumentacija\\myapplication_20250929\\myapplication\\myapplication\\myapplication\\components\\pages\\sifranti\\vozila_spremeni.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6027DAC8-0B5B-4784-B645-28A5953A488C}|MyApplication\\MyApplication.csproj|solutionrelative:myapplication\\components\\pages\\sifranti\\vozila_spremeni.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C8E2CA-630D-4E9C-87B4-1138124FF80A}|BusinessLayer\\BusinessLayer.csproj|d:\\freelancer dokumentacija\\myapplication_20250929\\myapplication\\myapplication\\businesslayer\\services\\vozilaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C8E2CA-630D-4E9C-87B4-1138124FF80A}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\services\\vozilaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C8E2CA-630D-4E9C-87B4-1138124FF80A}|BusinessLayer\\BusinessLayer.csproj|d:\\freelancer dokumentacija\\myapplication_20250929\\myapplication\\myapplication\\businesslayer\\services\\voznikiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C8E2CA-630D-4E9C-87B4-1138124FF80A}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\services\\voznikiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C8E2CA-630D-4E9C-87B4-1138124FF80A}|BusinessLayer\\BusinessLayer.csproj|d:\\freelancer dokumentacija\\myapplication_20250929\\myapplication\\myapplication\\businesslayer\\interfaces\\ivozilaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C8E2CA-630D-4E9C-87B4-1138124FF80A}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\interfaces\\ivozilaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C8E2CA-630D-4E9C-87B4-1138124FF80A}|BusinessLayer\\BusinessLayer.csproj|d:\\freelancer dokumentacija\\myapplication_20250929\\myapplication\\myapplication\\businesslayer\\interfaces\\ivoznikiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C8E2CA-630D-4E9C-87B4-1138124FF80A}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\interfaces\\ivoznikiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{945175F4-887D-4979-9E2C-10267471FA54}|DataAccessLayer\\DataAccessLayer.csproj|d:\\freelancer dokumentacija\\myapplication_20250929\\myapplication\\myapplication\\dataaccesslayer\\repositories\\vozilarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{945175F4-887D-4979-9E2C-10267471FA54}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\vozilarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{945175F4-887D-4979-9E2C-10267471FA54}|DataAccessLayer\\DataAccessLayer.csproj|d:\\freelancer dokumentacija\\myapplication_20250929\\myapplication\\myapplication\\dataaccesslayer\\interfaces\\ivozilarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{945175F4-887D-4979-9E2C-10267471FA54}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\interfaces\\ivozilarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{945175F4-887D-4979-9E2C-10267471FA54}|DataAccessLayer\\DataAccessLayer.csproj|d:\\freelancer dokumentacija\\myapplication_20250929\\myapplication\\myapplication\\dataaccesslayer\\repositories\\voznikirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{945175F4-887D-4979-9E2C-10267471FA54}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\voznikirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{945175F4-887D-4979-9E2C-10267471FA54}|DataAccessLayer\\DataAccessLayer.csproj|d:\\freelancer dokumentacija\\myapplication_20250929\\myapplication\\myapplication\\dataaccesslayer\\repositories\\izdajerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{945175F4-887D-4979-9E2C-10267471FA54}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\izdajerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C8E2CA-630D-4E9C-87B4-1138124FF80A}|BusinessLayer\\BusinessLayer.csproj|d:\\freelancer dokumentacija\\myapplication_20250929\\myapplication\\myapplication\\businesslayer\\services\\izdajeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C8E2CA-630D-4E9C-87B4-1138124FF80A}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\services\\izdajeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{945175F4-887D-4979-9E2C-10267471FA54}|DataAccessLayer\\DataAccessLayer.csproj|d:\\freelancer dokumentacija\\myapplication_20250929\\myapplication\\myapplication\\dataaccesslayer\\interfaces\\ivoznikirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{945175F4-887D-4979-9E2C-10267471FA54}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\interfaces\\ivoznikirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{945175F4-887D-4979-9E2C-10267471FA54}|DataAccessLayer\\DataAccessLayer.csproj|d:\\freelancer dokumentacija\\myapplication_20250929\\myapplication\\myapplication\\dataaccesslayer\\interfaces\\iizdajerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{945175F4-887D-4979-9E2C-10267471FA54}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\interfaces\\iizdajerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{945175F4-887D-4979-9E2C-10267471FA54}|DataAccessLayer\\DataAccessLayer.csproj|d:\\freelancer dokumentacija\\myapplication_20250929\\myapplication\\myapplication\\dataaccesslayer\\models\\izdaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{945175F4-887D-4979-9E2C-10267471FA54}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\models\\izdaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1009793168:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserState.cs",
+              "DocumentMoniker": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\BusinessLayer\\Services\\StateServices\\UserState.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Services\\StateServices\\UserState.cs",
+              "ToolTip": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\BusinessLayer\\Services\\StateServices\\UserState.cs",
+              "RelativeToolTip": "BusinessLayer\\Services\\StateServices\\UserState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T18:56:07.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\MyApplication\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "MyApplication\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\MyApplication\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "MyApplication\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAGUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T22:44:00.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Izdaje_Trenutni.razor",
+              "DocumentMoniker": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\MyApplication\\Components\\Pages\\Izdaje_Trenutni.razor",
+              "RelativeDocumentMoniker": "MyApplication\\Components\\Pages\\Izdaje_Trenutni.razor",
+              "ToolTip": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\MyApplication\\Components\\Pages\\Izdaje_Trenutni.razor",
+              "RelativeToolTip": "MyApplication\\Components\\Pages\\Izdaje_Trenutni.razor",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAACQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-08T15:45:29.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Izdaje_Seznam.razor",
+              "DocumentMoniker": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\MyApplication\\Components\\Pages\\Izdaje_Seznam.razor",
+              "RelativeDocumentMoniker": "MyApplication\\Components\\Pages\\Izdaje_Seznam.razor",
+              "ToolTip": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\MyApplication\\Components\\Pages\\Izdaje_Seznam.razor",
+              "RelativeToolTip": "MyApplication\\Components\\Pages\\Izdaje_Seznam.razor",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAEYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T18:29:43.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.razor",
+              "DocumentMoniker": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\MyApplication\\Components\\App.razor",
+              "RelativeDocumentMoniker": "MyApplication\\Components\\App.razor",
+              "ToolTip": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\MyApplication\\Components\\App.razor",
+              "RelativeToolTip": "MyApplication\\Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T22:27:55.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\MyApplication\\Routes.razor",
+              "RelativeDocumentMoniker": "MyApplication\\Routes.razor",
+              "ToolTip": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\MyApplication\\Routes.razor",
+              "RelativeToolTip": "MyApplication\\Routes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-13T16:24:31.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Home.razor",
+              "DocumentMoniker": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\MyApplication\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "MyApplication\\Components\\Pages\\Home.razor",
+              "ToolTip": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\MyApplication\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "MyApplication\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T20:51:34.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\MyApplication\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "MyApplication\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\MyApplication\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "MyApplication\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T20:48:59.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Vozniki_Edit_Add_Form.razor",
+              "DocumentMoniker": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\MyApplication\\Components\\Pages\\Sifranti\\Vozniki_Edit_Add_Form.razor",
+              "RelativeDocumentMoniker": "MyApplication\\Components\\Pages\\Sifranti\\Vozniki_Edit_Add_Form.razor",
+              "ToolTip": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\MyApplication\\Components\\Pages\\Sifranti\\Vozniki_Edit_Add_Form.razor",
+              "RelativeToolTip": "MyApplication\\Components\\Pages\\Sifranti\\Vozniki_Edit_Add_Form.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-13T21:54:19.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IClientService.cs",
+              "DocumentMoniker": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\BusinessLayer\\Interfaces\\IClientService.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Interfaces\\IClientService.cs",
+              "ToolTip": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\BusinessLayer\\Interfaces\\IClientService.cs",
+              "RelativeToolTip": "BusinessLayer\\Interfaces\\IClientService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T18:47:07.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClientService.cs",
+              "DocumentMoniker": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\BusinessLayer\\Services\\ClientService.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Services\\ClientService.cs",
+              "ToolTip": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\BusinessLayer\\Services\\ClientService.cs",
+              "RelativeToolTip": "BusinessLayer\\Services\\ClientService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T18:48:09.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Izdaje_Edit_Add_Form.razor",
+              "DocumentMoniker": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\MyApplication\\Components\\Pages\\Izdaje_Edit_Add_Form.razor",
+              "RelativeDocumentMoniker": "MyApplication\\Components\\Pages\\Izdaje_Edit_Add_Form.razor",
+              "ToolTip": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\MyApplication\\Components\\Pages\\Izdaje_Edit_Add_Form.razor",
+              "RelativeToolTip": "MyApplication\\Components\\Pages\\Izdaje_Edit_Add_Form.razor",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAH0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T16:49:04.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Vozila_Edit_Add_Form.razor",
+              "DocumentMoniker": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\MyApplication\\Components\\Pages\\Sifranti\\Vozila_Edit_Add_Form.razor",
+              "RelativeDocumentMoniker": "MyApplication\\Components\\Pages\\Sifranti\\Vozila_Edit_Add_Form.razor",
+              "ToolTip": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\MyApplication\\Components\\Pages\\Sifranti\\Vozila_Edit_Add_Form.razor",
+              "RelativeToolTip": "MyApplication\\Components\\Pages\\Sifranti\\Vozila_Edit_Add_Form.razor",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T20:51:44.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Izdaje_Dodaj.razor",
+              "DocumentMoniker": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\MyApplication\\Components\\Pages\\Izdaje_Dodaj.razor",
+              "RelativeDocumentMoniker": "MyApplication\\Components\\Pages\\Izdaje_Dodaj.razor",
+              "ToolTip": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\MyApplication\\Components\\Pages\\Izdaje_Dodaj.razor",
+              "RelativeToolTip": "MyApplication\\Components\\Pages\\Izdaje_Dodaj.razor",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAADMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T21:09:45.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Nov.razor",
+              "DocumentMoniker": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\MyApplication\\Components\\Pages\\Nov.razor",
+              "RelativeDocumentMoniker": "MyApplication\\Components\\Pages\\Nov.razor",
+              "ToolTip": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\MyApplication\\Components\\Pages\\Nov.razor",
+              "RelativeToolTip": "MyApplication\\Components\\Pages\\Nov.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-13T21:52:01.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NotAuthorized.razor",
+              "DocumentMoniker": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\MyApplication\\Components\\Pages\\NotAuthorized.razor",
+              "RelativeDocumentMoniker": "MyApplication\\Components\\Pages\\NotAuthorized.razor",
+              "ToolTip": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\MyApplication\\Components\\Pages\\NotAuthorized.razor",
+              "RelativeToolTip": "MyApplication\\Components\\Pages\\NotAuthorized.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-13T21:40:39.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Uporabniki.cs",
+              "DocumentMoniker": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\DataAccessLayer\\Models\\Uporabniki.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Models\\Uporabniki.cs",
+              "ToolTip": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\DataAccessLayer\\Models\\Uporabniki.cs",
+              "RelativeToolTip": "DataAccessLayer\\Models\\Uporabniki.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T17:06:28.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\MyApplication\\Program.cs",
+              "RelativeDocumentMoniker": "MyApplication\\Program.cs",
+              "ToolTip": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\MyApplication\\Program.cs",
+              "RelativeToolTip": "MyApplication\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T21:48:05.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UporabnikService.cs",
+              "DocumentMoniker": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\BusinessLayer\\Services\\UporabnikService.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Services\\UporabnikService.cs",
+              "ToolTip": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\BusinessLayer\\Services\\UporabnikService.cs",
+              "RelativeToolTip": "BusinessLayer\\Services\\UporabnikService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T17:06:17.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IUporabnikService.cs",
+              "DocumentMoniker": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\BusinessLayer\\Interfaces\\IUporabnikService.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Interfaces\\IUporabnikService.cs",
+              "ToolTip": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\BusinessLayer\\Interfaces\\IUporabnikService.cs",
+              "RelativeToolTip": "BusinessLayer\\Interfaces\\IUporabnikService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T17:01:53.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IIzdajeService.cs",
+              "DocumentMoniker": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\BusinessLayer\\Interfaces\\IIzdajeService.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Interfaces\\IIzdajeService.cs",
+              "ToolTip": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\BusinessLayer\\Interfaces\\IIzdajeService.cs",
+              "RelativeToolTip": "BusinessLayer\\Interfaces\\IIzdajeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T17:06:41.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\MyApplication\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "MyApplication\\Components\\_Imports.razor",
+              "ToolTip": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\MyApplication\\Components\\_Imports.razor",
+              "RelativeToolTip": "MyApplication\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T22:28:17.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Vozila_Seznam.razor",
+              "DocumentMoniker": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\MyApplication\\Components\\Pages\\Sifranti\\Vozila_Seznam.razor",
+              "RelativeDocumentMoniker": "MyApplication\\Components\\Pages\\Sifranti\\Vozila_Seznam.razor",
+              "ToolTip": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\MyApplication\\Components\\Pages\\Sifranti\\Vozila_Seznam.razor",
+              "RelativeToolTip": "MyApplication\\Components\\Pages\\Sifranti\\Vozila_Seznam.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T20:21:29.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Vozniki_Seznam.razor",
+              "DocumentMoniker": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\MyApplication\\Components\\Pages\\Sifranti\\Vozniki_Seznam.razor",
+              "RelativeDocumentMoniker": "MyApplication\\Components\\Pages\\Sifranti\\Vozniki_Seznam.razor",
+              "ToolTip": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\MyApplication\\Components\\Pages\\Sifranti\\Vozniki_Seznam.razor",
+              "RelativeToolTip": "MyApplication\\Components\\Pages\\Sifranti\\Vozniki_Seznam.razor",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T16:48:29.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Vozila_Spremeni.razor",
+              "DocumentMoniker": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\MyApplication\\Components\\Pages\\Sifranti\\Vozila_Spremeni.razor",
+              "RelativeDocumentMoniker": "MyApplication\\Components\\Pages\\Sifranti\\Vozila_Spremeni.razor",
+              "ToolTip": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\MyApplication\\Components\\Pages\\Sifranti\\Vozila_Spremeni.razor",
+              "RelativeToolTip": "MyApplication\\Components\\Pages\\Sifranti\\Vozila_Spremeni.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T19:23:31.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "VoznikiService.cs",
+              "DocumentMoniker": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\BusinessLayer\\Services\\VoznikiService.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Services\\VoznikiService.cs",
+              "ToolTip": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\BusinessLayer\\Services\\VoznikiService.cs",
+              "RelativeToolTip": "BusinessLayer\\Services\\VoznikiService.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAawEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T18:14:57.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "VozilaService.cs",
+              "DocumentMoniker": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\BusinessLayer\\Services\\VozilaService.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Services\\VozilaService.cs",
+              "ToolTip": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\BusinessLayer\\Services\\VozilaService.cs",
+              "RelativeToolTip": "BusinessLayer\\Services\\VozilaService.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAAAFAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T18:16:47.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IVozilaService.cs",
+              "DocumentMoniker": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\BusinessLayer\\Interfaces\\IVozilaService.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Interfaces\\IVozilaService.cs",
+              "ToolTip": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\BusinessLayer\\Interfaces\\IVozilaService.cs",
+              "RelativeToolTip": "BusinessLayer\\Interfaces\\IVozilaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T19:45:31.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IVoznikiService.cs",
+              "DocumentMoniker": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\BusinessLayer\\Interfaces\\IVoznikiService.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Interfaces\\IVoznikiService.cs",
+              "ToolTip": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\BusinessLayer\\Interfaces\\IVoznikiService.cs",
+              "RelativeToolTip": "BusinessLayer\\Interfaces\\IVoznikiService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T18:13:55.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "VozilaRepository.cs",
+              "DocumentMoniker": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\DataAccessLayer\\Repositories\\VozilaRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\VozilaRepository.cs",
+              "ToolTip": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\DataAccessLayer\\Repositories\\VozilaRepository.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repositories\\VozilaRepository.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFkAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T19:44:04.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IVozilaRepository.cs",
+              "DocumentMoniker": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\DataAccessLayer\\Interfaces\\IVozilaRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Interfaces\\IVozilaRepository.cs",
+              "ToolTip": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\DataAccessLayer\\Interfaces\\IVozilaRepository.cs",
+              "RelativeToolTip": "DataAccessLayer\\Interfaces\\IVozilaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T19:43:48.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "VoznikiRepository.cs",
+              "DocumentMoniker": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\DataAccessLayer\\Repositories\\VoznikiRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\VoznikiRepository.cs",
+              "ToolTip": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\DataAccessLayer\\Repositories\\VoznikiRepository.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repositories\\VoznikiRepository.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAA5wF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T18:15:51.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IzdajeRepository.cs",
+              "DocumentMoniker": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\DataAccessLayer\\Repositories\\IzdajeRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\IzdajeRepository.cs",
+              "ToolTip": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\DataAccessLayer\\Repositories\\IzdajeRepository.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repositories\\IzdajeRepository.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAgwFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T15:42:11.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IVoznikiRepository.cs",
+              "DocumentMoniker": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\DataAccessLayer\\Interfaces\\IVoznikiRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Interfaces\\IVoznikiRepository.cs",
+              "ToolTip": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\DataAccessLayer\\Interfaces\\IVoznikiRepository.cs",
+              "RelativeToolTip": "DataAccessLayer\\Interfaces\\IVoznikiRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T18:15:19.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IIzdajeRepository.cs",
+              "DocumentMoniker": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\DataAccessLayer\\Interfaces\\IIzdajeRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Interfaces\\IIzdajeRepository.cs",
+              "ToolTip": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\DataAccessLayer\\Interfaces\\IIzdajeRepository.cs",
+              "RelativeToolTip": "DataAccessLayer\\Interfaces\\IIzdajeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T18:15:39.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IzdajeService.cs",
+              "DocumentMoniker": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\BusinessLayer\\Services\\IzdajeService.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Services\\IzdajeService.cs",
+              "ToolTip": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\BusinessLayer\\Services\\IzdajeService.cs",
+              "RelativeToolTip": "BusinessLayer\\Services\\IzdajeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T18:29:36.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Izdaje.cs",
+              "DocumentMoniker": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\DataAccessLayer\\Models\\Izdaje.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Models\\Izdaje.cs",
+              "ToolTip": "D:\\Freelancer dokumentacija\\MyApplication_20250929\\MyApplication\\MyApplication\\DataAccessLayer\\Models\\Izdaje.cs",
+              "RelativeToolTip": "DataAccessLayer\\Models\\Izdaje.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T20:28:44.287Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
