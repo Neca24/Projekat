@@ -1,0 +1,2 @@
+D:\Freelancer dokumentacija\MyApplication_20250929\MyApplication\MyApplication\MyApplication\wwwroot\favicon.ico
+wwwroot\favicon.ico

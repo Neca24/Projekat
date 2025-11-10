@@ -1,0 +1,207 @@
+﻿@page "/Izdaje-Trenutni"
+@using BusinessLayer.Interfaces
+@using BusinessLayer.Services
+@using BusinessLayer.Services.StateServices
+@using DataAccessLayer.Models
+
+@inject NavigationManager NavigationManager
+@inject SaveUrlService _returnUrl;
+@inject IIzdajeService _izdajeService;
+@inject IVozilaService _vozilaService;
+@inject IVoznikiService _voznikiService;
+@inject ISnackbar _sb;
+
+@implements IDisposable;
+
+
+
+@* View “IzdajeTrenutni” (form/page)
+View selected Izdaje
+Main function:
+-	Based on ThisIzdajeSelectionID show values(read only) from row of table “izdaje”
+-	Using component MudBlazer text box, numeric field
+-	Button “OK” to do:
+-	C# Verification of entered fields
+-	write one SQL statement
+-	return to view “Trenutni”
+
+Startup:
+-	On startup/opening do checking
+o	value of variable: ThisIzdajeSelectionID like
+o	Exist in SQL
+o	Checking some fields to have correct range of values (can be calling function like »VerifyContentSelectedIzdaje«)
+If result:
+o	Ok
+Fill components (text box, numeric field) on form based on value of result SQL
+o	Not ok
+Empty components *@
+
+<div class="main">
+
+    <div class="header" Style="height: var(--header-height);padding:0;">
+        <MudStack Row="true" Spacing="2" AlignItems="AlignItems.Center" Class="mb-4" Style="height: var(--header-height)">
+            <MudText Typo="Typo.h5">Izdaje - Trenutni </MudText>
+        </MudStack>
+    </div>
+
+
+    <div class="grid" Style="height: var(--grid-height);padding:0;overflow-y:scroll">
+
+        @* <MudPaper Class="pa-4 mt-4" Elevation="3"> *@
+        <MudText Typo="Typo.h5">Izdaje - Trenutni - Obrazec </MudText>
+        
+        <MudGrid Justify="Justify.FlexStart" Spacing="0">
+            @if (_returnUrl.SelectedId.HasValue && izdaje != null && _returnUrl.TargetPage == "Izdaje")
+            {
+                <MudFlexBreak />
+                <MudItem xs="12" sm="12">
+                    <MudTextField ReadOnly="true" Variant="Variant.Outlined" Label="Voznik" HelperText="Voznik" HelperTextOnFocus="true" @bind-Value="_voznik"> </MudTextField>
+                </MudItem>
+                <MudFlexBreak />
+
+                <MudItem xs="12" sm="10">
+                    <MudTextField ReadOnly="true" Variant="Variant.Outlined" Label="Vozilo" HelperText="Vozilo" HelperTextOnFocus="true" @bind-Value="_vozilo"> </MudTextField>
+                </MudItem>
+                <MudFlexBreak />
+                <MudItem xs="12" sm="6">
+                    <MudTextField ReadOnly="true" Variant="Variant.Outlined" Label="Predvidena količina" HelperText="Predvidena količina" HelperTextOnFocus="true" @bind-Value="izdaje.PredvidenaKolicina" />
+                </MudItem>
+                <MudFlexBreak />
+                <MudItem xs="12" sm="6">
+                    <MudTextField ReadOnly="true" Variant="Variant.Outlined" Label="Relacija" HelperText="Relacija" HelperTextOnFocus="true" @bind-Value="izdaje.Relacija" />
+                </MudItem>
+                <MudFlexBreak />
+                <MudItem xs="12" sm="6">
+                    <MudTextField ReadOnly="true" Variant="Variant.Outlined" Label="Dokument dobavnice" HelperText="Dokument dobavnice" HelperTextOnFocus="true" @bind-Value="izdaje.DokumentDobavnice" />
+                </MudItem>
+                <MudFlexBreak />
+                <MudItem xs="12" sm="6">
+                    <MudTextField Format="dd.MM.yyyy" ReadOnly="true" Variant="Variant.Outlined" Label="Vpis DT" HelperText="Vpis DT" HelperTextOnFocus="true" @bind-Value="izdaje.VpisDatetime" />
+                </MudItem>
+
+
+            }
+            else
+            {
+                <MudAlert Severity="Severity.Error">Nema Izdaje</MudAlert>
+            }
+        </MudGrid>
+    </div>
+
+    <div class="footer" Style="height: var(--footer-height); padding:0; ">
+        <MudStack Row Spacing="2" Justify="Justify.Center" Class="mt-4">
+
+            <MudButton FullWidth="true" Color="Color.Primary" Variant="Variant.Filled" OnClick="NavigateToPage">
+                Go to Other Page
+            </MudButton>
+
+        </MudStack>
+    </div>
+
+</div>
+
+@*</MudPaper> *@
+
+
+
+
+<style>
+
+    .main {
+        @* adjust header, footer height*@
+        --header-height: 50px;
+        --footer-height: 50px;
+        @* vertical pading from somewhere *@
+        --padding-height: 5px;
+        @* height for main section *@
+        --mainview-height: calc( 100vh - var(--mud-appbar-height) - var(--padding-height) );
+        @*background-color: grey;
+        padding-inline: 0px; *@
+        height: var(--mainview-height);
+        display: flex;
+        flex-direction: column;
+        justify-content: normal;
+        @* calc height grid *@
+        --grid-height_temp: calc(var(--header-height) + var(--footer-height) );
+        --grid-height: calc(var(--mainview-height) - var(--grid-height_temp));
+    }
+
+    .grid {
+        @*background-color: orange;
+        padding-inline: 10px; *@
+        height: calc(var(--grid-height));
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .header {
+        @* background-color: blue;
+        height: calc(var(--header-height)); *@
+        display: flex;
+        flex-direction: column;
+        justify-content: normal;
+    }
+
+    .footer {
+        @* background-color: red;
+        padding-inline: 10px; *@
+        height: var(--footer-height);
+        display: flex;
+        flex-direction: column;
+        justify-content: normal;
+    }
+
+</style>
+
+
+@code {
+    private Izdaje? izdaje = new();
+    private string? _vozilo;
+    private string? _voznik;
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (_returnUrl.SelectedId.HasValue && _returnUrl.SelectedId != null && _returnUrl.TargetPage == "Izdaje")
+        {
+            izdaje = await _izdajeService.GetIzdajeById(_returnUrl.SelectedId.Value);
+
+            if (izdaje != null)
+            {
+                _vozilo = await GetVozilo(izdaje.Vozilo ?? 0);
+                _voznik = await GetVoznik(izdaje.Voznik ?? 0);
+            }
+            else
+            {
+                _returnUrl.SelectedId = null;
+                _sb.Add("NE POSTOJI ID"); //TODO
+            }
+        }
+    }
+
+    private void NavigateToPage()
+    {
+        _returnUrl.RootUrl = NavigationManager.Uri;
+        _returnUrl.TargetPage = "Izdaje";
+        NavigationManager.NavigateTo("/Izdaje-Seznam");
+    }
+
+    private async Task<string> GetVozilo(int voziloId)
+    {
+        var voziloList = await _vozilaService.GetAllVozila();
+        var v = voziloList.FirstOrDefault(v => v.Id == voziloId);
+        return v?.Opis ?? "N/A";
+    }
+
+    public void Dispose()
+    {
+        _returnUrl.SelectedId = null;
+    }
+
+    private async Task<string> GetVoznik(int voznikId)
+    {
+        var voznikiList = await _voznikiService.GetAllVozniki();
+        var v = voznikiList.FirstOrDefault(v => v.Id == voznikId);
+        return v?.Opis ?? "N/A";
+    }
+}

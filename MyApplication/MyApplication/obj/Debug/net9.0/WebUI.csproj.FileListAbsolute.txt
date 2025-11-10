@@ -1,0 +1,7 @@
+D:\Freelancer dokumentacija\MyApplication_20250929\MyApplication\MyApplication\MyApplication\obj\Debug\net9.0\WebUI.csproj.AssemblyReference.cache
+D:\Freelancer dokumentacija\MyApplication_20250929\MyApplication\MyApplication\MyApplication\obj\Debug\net9.0\rpswa.dswa.cache.json
+D:\Freelancer dokumentacija\MyApplication_20250929\MyApplication\MyApplication\MyApplication\obj\Debug\net9.0\WebUI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Freelancer dokumentacija\MyApplication_20250929\MyApplication\MyApplication\MyApplication\obj\Debug\net9.0\WebUI.AssemblyInfoInputs.cache
+D:\Freelancer dokumentacija\MyApplication_20250929\MyApplication\MyApplication\MyApplication\obj\Debug\net9.0\WebUI.AssemblyInfo.cs
+D:\Freelancer dokumentacija\MyApplication_20250929\MyApplication\MyApplication\MyApplication\obj\Debug\net9.0\WebUI.csproj.CoreCompileInputs.cache
+D:\Freelancer dokumentacija\MyApplication_20250929\MyApplication\MyApplication\MyApplication\obj\Debug\net9.0\WebUI.MvcApplicationPartsAssemblyInfo.cache

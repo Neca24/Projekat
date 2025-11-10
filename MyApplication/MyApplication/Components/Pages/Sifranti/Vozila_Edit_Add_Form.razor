@@ -1,0 +1,139 @@
+﻿@page "/sifranti/vozila-edit/{VozilaId:int}"
+
+@using BusinessLayer.Interfaces
+@using BusinessLayer.Services.StateServices
+@using DataAccessLayer.Models
+@using Microsoft.AspNetCore.WebUtilities
+@inject ISnackbar Snackbar
+@inject NavigationManager NavManager
+@inject IVozilaService _vozilaService
+@inject UserState _userState
+
+<MudPaper Class="pa-4" Elevation="3">
+    @if(_userState.CurrentUserRights>0)
+    {
+        <MudText Typo="Typo.h5">@Title</MudText>
+
+        <MudForm @ref="form" Model="voziloModel">
+            <MudGrid Spacing="2">
+                <MudItem xs="12" sm="6">
+                    <MudTextField @bind-Value="voziloModel.Opis" Label="Opis" Required="true" />
+                </MudItem>
+                <MudItem xs="12" sm="6">
+                    <MudDatePicker @bind-Date="selectedDate" DateFormat="dd.MM.yyyy" Label="Vpis date" Required="true" />
+                </MudItem>
+                <MudItem xs="12" sm="6">
+                    <MudTimePicker @bind-Time="selectedTime" Label="Vpis time" AmPm="false" Required="true" />
+                </MudItem>
+                <MudItem xs="12" sm="6">
+                    <MudNumericField T="int?" @bind-Value="voziloModel.VpisUporabnik" Label="Vpis uporabnik" ReadOnly="true"/>
+                </MudItem>
+            </MudGrid>
+
+            <MudStack Justify="Justify.FlexEnd" Row Spacing="2" Class="mt-4">
+                <MudButton Color="Color.Primary" Variant="Variant.Filled" OnClick="OkClicked">OK</MudButton>
+                <MudButton Color="Color.Secondary" Variant="Variant.Filled" OnClick="CancelClicked">Cancel</MudButton>
+            </MudStack>
+        </MudForm>
+    }
+    else
+    {
+        <MudText>Access denied</MudText>
+    }
+</MudPaper>
+
+
+@code {
+    [Parameter] public int? VozilaId { get; set; }
+
+    private DateTime? selectedDate = DateTime.Today;
+    private TimeSpan? selectedTime = DateTime.Now.TimeOfDay;
+
+    private MudForm? form;
+    private Vozila voziloModel = new Vozila();
+
+    private string Title => VozilaId.HasValue && VozilaId.Value > 0 ? "Edit Vozilo" : "Add new Vozilo";
+
+    protected override async Task OnInitializedAsync()
+    {
+
+        if (VozilaId.HasValue && VozilaId.Value > 0)
+        {
+            try
+            {
+                var vozilo = await _vozilaService.GetVoziloById(VozilaId.Value);
+                if (vozilo == null)
+                {
+                    Snackbar.Add("Vozilo doesnt exist", Severity.Error);
+                    return;
+                }
+
+                voziloModel = vozilo;
+                selectedDate = vozilo.VpisDatetime!.Value.Date;
+                selectedTime = vozilo.VpisDatetime!.Value.TimeOfDay;
+            }
+            catch (Exception e)
+            {
+                Snackbar.Add($"Error loading vozilo: {e.Message}", Severity.Error);
+                return;
+            }
+        }
+        else
+        {
+            voziloModel.VpisDatetime = DateTime.Now;
+        }
+    }
+
+    private async Task OkClicked()
+    {
+        voziloModel.VpisDatetime = selectedDate + selectedTime;
+
+        await form!.Validate();
+        if (!form.IsValid)
+        {
+            Snackbar.Add("Check the entered data", Severity.Warning);
+            return;
+        }
+
+        try
+        {
+            if (VozilaId.HasValue && VozilaId.Value > 0)
+            {
+                var res = await _vozilaService.UpdateVozilo(voziloModel);
+                if (res.Success){
+                    Snackbar.Add(res.Message, Severity.Success);
+                    NavManager.NavigateTo("/sifranti/vozila-seznam");
+                }
+                else
+                {
+                    Snackbar.Add(res.Message, Severity.Error);
+                    return;
+                }
+
+            }
+            else
+            {
+                var res = await _vozilaService.AddVoziloAsync(voziloModel);
+                if (res.Success){
+                    Snackbar.Add(res.Message, Severity.Success);
+                    NavManager.NavigateTo("/sifranti/vozila-seznam");
+                }
+                else
+                {
+                    Snackbar.Add(res.Message, Severity.Error);
+                    return;
+                }
+            }
+        }
+        catch (Exception e)
+        {
+            Snackbar.Add($"Error saving vozilo: {e.Message}", Severity.Error);
+            return;
+        }
+    }
+
+    private void CancelClicked()
+    {
+        NavManager.NavigateTo("/sifranti/vozila-seznam");
+    }
+}

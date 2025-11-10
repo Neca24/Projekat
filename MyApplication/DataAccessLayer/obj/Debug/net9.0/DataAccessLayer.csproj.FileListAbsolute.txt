@@ -1,0 +1,42 @@
+D:\Freelancer dokumentacija\MyApplication\MyApplication\DataAccessLayer\bin\Debug\net9.0\DataAccessLayer.deps.json
+D:\Freelancer dokumentacija\MyApplication\MyApplication\DataAccessLayer\bin\Debug\net9.0\DataAccessLayer.runtimeconfig.json
+D:\Freelancer dokumentacija\MyApplication\MyApplication\DataAccessLayer\bin\Debug\net9.0\DataAccessLayer.dll
+D:\Freelancer dokumentacija\MyApplication\MyApplication\DataAccessLayer\bin\Debug\net9.0\DataAccessLayer.pdb
+D:\Freelancer dokumentacija\MyApplication\MyApplication\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.csproj.AssemblyReference.cache
+D:\Freelancer dokumentacija\MyApplication\MyApplication\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Freelancer dokumentacija\MyApplication\MyApplication\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.AssemblyInfoInputs.cache
+D:\Freelancer dokumentacija\MyApplication\MyApplication\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.AssemblyInfo.cs
+D:\Freelancer dokumentacija\MyApplication\MyApplication\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\Freelancer dokumentacija\MyApplication\MyApplication\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.dll
+D:\Freelancer dokumentacija\MyApplication\MyApplication\DataAccessLayer\obj\Debug\net9.0\refint\DataAccessLayer.dll
+D:\Freelancer dokumentacija\MyApplication\MyApplication\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.pdb
+D:\Freelancer dokumentacija\MyApplication\MyApplication\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.genruntimeconfig.cache
+D:\Freelancer dokumentacija\MyApplication\MyApplication\DataAccessLayer\obj\Debug\net9.0\ref\DataAccessLayer.dll
+C:\Users\Admin\source\repos\MyApplication\MyApplication\DataAccessLayer\bin\Debug\net9.0\DataAccessLayer.deps.json
+C:\Users\Admin\source\repos\MyApplication\MyApplication\DataAccessLayer\bin\Debug\net9.0\DataAccessLayer.runtimeconfig.json
+C:\Users\Admin\source\repos\MyApplication\MyApplication\DataAccessLayer\bin\Debug\net9.0\DataAccessLayer.dll
+C:\Users\Admin\source\repos\MyApplication\MyApplication\DataAccessLayer\bin\Debug\net9.0\DataAccessLayer.pdb
+C:\Users\Admin\source\repos\MyApplication\MyApplication\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\MyApplication\MyApplication\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\MyApplication\MyApplication\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\MyApplication\MyApplication\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\Admin\source\repos\MyApplication\MyApplication\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\MyApplication\MyApplication\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.dll
+C:\Users\Admin\source\repos\MyApplication\MyApplication\DataAccessLayer\obj\Debug\net9.0\refint\DataAccessLayer.dll
+C:\Users\Admin\source\repos\MyApplication\MyApplication\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.pdb
+C:\Users\Admin\source\repos\MyApplication\MyApplication\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.genruntimeconfig.cache
+C:\Users\Admin\source\repos\MyApplication\MyApplication\DataAccessLayer\obj\Debug\net9.0\ref\DataAccessLayer.dll
+D:\Freelancer dokumentacija\MyApplication_20250929\MyApplication\MyApplication\DataAccessLayer\bin\Debug\net9.0\DataAccessLayer.deps.json
+D:\Freelancer dokumentacija\MyApplication_20250929\MyApplication\MyApplication\DataAccessLayer\bin\Debug\net9.0\DataAccessLayer.runtimeconfig.json
+D:\Freelancer dokumentacija\MyApplication_20250929\MyApplication\MyApplication\DataAccessLayer\bin\Debug\net9.0\DataAccessLayer.dll
+D:\Freelancer dokumentacija\MyApplication_20250929\MyApplication\MyApplication\DataAccessLayer\bin\Debug\net9.0\DataAccessLayer.pdb
+D:\Freelancer dokumentacija\MyApplication_20250929\MyApplication\MyApplication\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.csproj.AssemblyReference.cache
+D:\Freelancer dokumentacija\MyApplication_20250929\MyApplication\MyApplication\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Freelancer dokumentacija\MyApplication_20250929\MyApplication\MyApplication\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.AssemblyInfoInputs.cache
+D:\Freelancer dokumentacija\MyApplication_20250929\MyApplication\MyApplication\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.AssemblyInfo.cs
+D:\Freelancer dokumentacija\MyApplication_20250929\MyApplication\MyApplication\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\Freelancer dokumentacija\MyApplication_20250929\MyApplication\MyApplication\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.dll
+D:\Freelancer dokumentacija\MyApplication_20250929\MyApplication\MyApplication\DataAccessLayer\obj\Debug\net9.0\refint\DataAccessLayer.dll
+D:\Freelancer dokumentacija\MyApplication_20250929\MyApplication\MyApplication\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.pdb
+D:\Freelancer dokumentacija\MyApplication_20250929\MyApplication\MyApplication\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.genruntimeconfig.cache
+D:\Freelancer dokumentacija\MyApplication_20250929\MyApplication\MyApplication\DataAccessLayer\obj\Debug\net9.0\ref\DataAccessLayer.dll
